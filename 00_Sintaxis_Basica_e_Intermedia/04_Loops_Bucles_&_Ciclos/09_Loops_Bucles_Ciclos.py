@@ -1,23 +1,3 @@
-""" Sirve para pasar por un codigo varias veces """
-
-# while 
-
-my_condition = 0 # es una especie de if pero que se repite
-while my_condition < 10:
-    print(my_condition)
-    my_condition += 2
-else: # else pertenece a WHILE, else nunca va solo
-    print("La ejecucion es mayor o igual que") 
-    
-print("La ejecucion continua")
-
-while my_condition < 20:
-    my_condition += 1
-    if my_condition == 15:
-        print("Se detoiene la ejecucion")
-        break
-
-print(my_condition)
 
 my_list = [35, 24, 17, 68, 52, 30, 17]
 
