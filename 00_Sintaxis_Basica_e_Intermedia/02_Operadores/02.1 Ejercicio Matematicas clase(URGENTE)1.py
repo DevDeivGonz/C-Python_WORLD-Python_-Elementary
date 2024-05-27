@@ -61,7 +61,7 @@ while True:
     print("____________________________________________________")
     lado2 = float(input("Ingrese la loguntud del segudo lado  "))
     print("____________________________________________________")
-    lado3 = float(input("Ibgrese la longitud del tercer lado  "))
+    lado3 = float(input("Ingrese la longitud del tercer lado  "))
     print("____________________________________________________")
 
     if (lado1 and lado2) == lado3 and (lado2 and lado3) == lado1: # Debe ser Equilátero si los tres lados son iguales.
