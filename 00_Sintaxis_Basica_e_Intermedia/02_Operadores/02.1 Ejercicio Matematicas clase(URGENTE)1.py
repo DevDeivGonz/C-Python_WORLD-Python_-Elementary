@@ -27,21 +27,24 @@ Salida de Resultados:
 Mostrar al usuario el tipo de triángulo según sus lados y ángulos.
     
 """
-print("|                                           |")
-print("|                                           |")
-print("|           BUEN DIA PARA TODOS             |")
-print("|                                           |")
-print("|                                           |")
-print("| MI NOMBRE ES BRANDON DAVID GONZALEZ LOPEZ |")
-print("|                                           |")
-print("|                                           |")
-print("|    PERTENECIENTE A LA FICHA 2823506-G1    |")
-print("|                                           |")
-print("|                                           |")
-print("|   ESTA ES LA PRESENTACION DEL TALLER 5°   |")
-print("|                                           |")
-print("|                                           |")
-
+print("|                                                                                      |")
+print("|                                                                                      |")
+print("|                              BUEN DIA PARA TODOS                                     |")
+print("|                                                                                      |")
+print("|                                                                                      |")
+print("|                   MI NOMBRE ES BRANDON DAVID GONZALEZ LOPEZ                          |")
+print("|                                                                                      |")
+print("|                                                                                      |")
+print("|                      PERTENECIENTE A LA FICHA 2823506-G1                             |")
+print("|                                                                                      |")
+print("|                                                                                      |")
+print("|                     ESTA ES LA PRESENTACION DEL TALLER 5°                            |")
+print("|                                                                                      |")
+print("|                                                                                      |")
+print("| El siguiente programa indicará si el triángulo es equilátero, isósceles o escaleno.  |")
+print("|                                                                                      |")
+print("|                                                                                      |")
+print("|                                                                                      |")
 import os
 
 def limpiar_pantalla():
@@ -49,8 +52,7 @@ def limpiar_pantalla():
         os.system('cls')
     else:
         os.system('clear')
-print("_____________________________________________")
-input("INSERTE ENTER PARA CONTINUA  ")
+input("                           INSERTE ENTER PARA CONTINUA                                 ")
 
 limpiar_pantalla()
 
