@@ -1,0 +1,116 @@
+[33mcommit 71fcfd1bd334e822f737f175af5ab9ad4dc308b9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 6924bac d98d4c9
+Author: David <gonzdeiv123@gmail.com>
+Date:   Tue May 28 00:20:13 2024 -0500
+
+    Merge branch 'master' of https://github.com/DevDeivGonz/C-Python_WORLD-Python_-Elementary
+
+[33mcommit 6924bac5dec929b2b5abc5fefe61f1bf2d40603d[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Tue May 28 00:15:52 2024 -0500
+
+    Primer commit
+
+[33mcommit d98d4c9f1317fc05387c86146a0691970a3ffcd1[m
+Author: DevDeivGonz <gonzdeiv123@gmail.com>
+Date:   Tue May 28 00:13:22 2024 -0500
+
+    Delete .github/workflows directory
+
+[33mcommit 4cae2f102d19ddd33ff9884ee47c335126108cd9[m
+Author: DevDeivGonz <gonzdeiv123@gmail.com>
+Date:   Mon May 27 23:40:47 2024 -0500
+
+    Create auto-commit-push.yml
+
+[33mcommit 903dc631cb4327635a3c866ec72733de1e20fa1a[m
+Author: DevDeivGonz <gonzdeiv123@gmail.com>
+Date:   Mon May 27 23:34:35 2024 -0500
+
+    Update main.yml
+
+[33mcommit 91a986612c08c9d8b519f0d92dc1d363007d0c8d[m
+Author: DevDeivGonz <gonzdeiv123@gmail.com>
+Date:   Mon May 27 23:31:55 2024 -0500
+
+    Update main.yml
+
+[33mcommit d0501231ddcf4e689df4a7f4e0a516e18e34631d[m
+Author: DevDeivGonz <gonzdeiv123@gmail.com>
+Date:   Mon May 27 23:26:55 2024 -0500
+
+    Create main.yml
+    
+    change automatically the changes in my code and send all information by git
+
+[33mcommit be275dbd5c4390308f9fcd35ee4e30b2a7868ae4[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Mon May 27 12:53:04 2024 -0500
+
+    Automated commit: 2024-05-27 12:53:04
+
+[33mcommit 587c6cd675b0c62d7fd460a326d560171f6cc0a6[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Sun May 26 22:53:19 2024 -0500
+
+    Automated commit: 2024-05-26 22:53:19
+
+[33mcommit 42271ca00cc77129d5b7f2d4676c1d6dd2e5f6df[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Sun May 26 22:43:28 2024 -0500
+
+    Automated commit: 2024-05-26 22:43:28
+
+[33mcommit 8de793e2e1aa970fa7995b4bec9968d535fd5871[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Sun May 26 22:30:40 2024 -0500
+
+    Automated commit: 2024-05-26 22:30:25
+
+[33mcommit edfb2c11187a6e945e51749a7f4aed805d0e58dc[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Sun May 26 12:03:22 2024 -0500
+
+    Agregar cambios urgentes de matemáticas
+
+[33mcommit f395b0030b34be3b4615b2d8496c3d59c5463ee4[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Sat May 25 19:04:54 2024 -0500
+
+    Agregar cambios
+
+[33mcommit b7a5b6e1487707ac29c653fdc782241c5f5cc0aa[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Sat May 25 18:57:48 2024 -0500
+
+    Agregando archivos modificados y nuevos
+
+[33mcommit b204d0ae77d0337c7aa1870b6ca5a82f6470b330[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Thu May 23 16:24:44 2024 -0500
+
+    Eliminando el archivo 02.2 Ejercicio intermedio.py
+
+[33mcommit 11dd80c8dea2bbbbec898b2763b420b262a15e5c[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Thu May 23 16:23:04 2024 -0500
+
+    Eliminando archivos que ya no son necesarios
+
+[33mcommit 262bb79e55ad7f875319ef775ddcbf5509e7c55c[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Thu May 23 16:10:30 2024 -0500
+
+    Mensaje del commit
+
+[33mcommit 191e8dfd0ec9f8aa66e78ef5e140d1d947f69399[m
+Author: David <gonzdeiv123@gmail.com>
+Date:   Thu May 23 00:51:59 2024 -0500
+
+    Add README.md
+
+[33mcommit 986f8765f9b940b63f969350fffc7ef6b2adf76e[m
+Author: David Gonzalez <gonzdeiv123@gmail.com>
+Date:   Thu May 23 00:37:33 2024 -0500
+
+    Se agrega el proyecto
