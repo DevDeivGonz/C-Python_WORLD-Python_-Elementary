@@ -2,6 +2,13 @@
 #se esta usando un lenguaje para que sea orientado a objetos 
 #sirven para alojar informacion y copilar almacenamiento 
 
+import os
+def limpiar_pantalla():
+    if os.name == "posix":
+        os.system("clear")
+    elif os.name == "ce" or os.name == "nt" or os.name == "dos":
+        os.system("cls")
+
 my_list = []  # Inicializa una lista vacía
 
 """ LAS LISTAS GUARDAN ELEMENTOS 1 A 1 ORDENADOS"""
