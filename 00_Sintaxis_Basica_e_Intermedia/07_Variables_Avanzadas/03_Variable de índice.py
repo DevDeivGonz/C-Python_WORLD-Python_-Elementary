@@ -1,11 +1,4 @@
-import os
 
-def limpiar_pantalla():
-    if os.name == 'nt':
-        os.system('cls')
-    else:
-        os.system('clear')
-        
 """ 
 La variable de índice se utiliza para almacenar el índice actual durante la iteración sobre una estructura
 de datos en Python. 
@@ -19,7 +12,7 @@ for indice, nombre in enumerate(nombres):
     print("El nombre en la posición", indice, "es:", nombre)
     
 input("ENTER PARA CONTINUAR: ")
-limpiar_pantalla()
+
     
 numeros = [10, 5, -3, 8, -6, 12]
 
@@ -31,7 +24,7 @@ else:
     print("No se encontraron números negativos en la lista.")
 
 input("ENTER PARA CONTINUAR: ")
-limpiar_pantalla()
+
 
 numeros = [10, 5, -3, 8, -6, 12]
 

@@ -16,11 +16,11 @@ multh_numbers(5, 5, 5) # muestra el resultado de la operacion
 multh_numbers(0.34,-34, 4345) # pueden ponerse numeros enteros, reales y decimales
 
 def sum_two_values (first_number, second_number):
-    print(first_number + second_number)
-    
+    print("Aqui va la suma incorpotada", first_number + second_number)
     
 sum_two_values(53434343434, 734334343343)
 sum_two_values(222, 222)
+
 
 
 def sum_two_values_with_return (first_number, second_number):

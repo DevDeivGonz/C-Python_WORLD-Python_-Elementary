@@ -71,6 +71,3 @@ my_list.clear()
 print(my_list)
 print(my_new_list)
 
-
-
-
