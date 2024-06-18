@@ -1,25 +1,44 @@
 """   
 
-    append(): Agrega un elemento al final de la lista.
-    extend(): Extiende la lista agregando los elementos de otra lista al final.
-    insert(): Inserta un elemento en una posición específica.
-    remove(): Elimina la primera ocurrencia de un elemento específico.
-    pop(): Elimina y devuelve el elemento en la posición dada (o el último si no se especifica).
-    index(): Devuelve el índice de la primera ocurrencia de un elemento.
-    count(): Devuelve el número de veces que aparece un elemento en la lista.
-    sort(): Ordena los elementos de la lista in situ.
-    reverse(): Invierte el orden de los elementos de la lista in situ.
-    clear(): Elimina todos los elementos de la lista.
-    copy(): Retorna una copia superficial de la lista.
-    len(): Retorna la longitud (número de elementos) de la lista.
-    min(): Retorna el elemento mínimo de la lista.
-    max(): Retorna el elemento máximo de la lista.
-    sum(): Retorna la suma de todos los elementos de la lista.
-    any(): Retorna True si algún elemento de la lista es verdadero, False de lo contrario.
-    all(): Retorna True si todos los elementos de la lista son verdaderos, False de lo contrario.
-    sorted(): Retorna una nueva lista ordenada a partir de los elementos de la lista original.
-    index(): Retorna el índice del primer elemento que sea igual al valor especificado.
-    count(): Retorna el número de veces que aparece un elemento en la lista.
+append(): Agrega un elemento al final de la lista.
+
+extend(): Extiende la lista agregando los elementos de otra lista al final.
+
+insert(): Inserta un elemento en una posición específica.
+
+remove(): Elimina la primera ocurrencia de un elemento específico.
+
+pop(): Elimina y devuelve el elemento en la posición dada (o el último si no se especifica).
+
+index(): Devuelve el índice de la primera ocurrencia de un elemento.
+
+count(): Devuelve el número de veces que aparece un elemento en la lista.
+
+sort(): Ordena los elementos de la lista in situ.
+
+reverse(): Invierte el orden de los elementos de la lista in situ.
+
+clear(): Elimina todos los elementos de la lista.
+
+copy(): Retorna una copia superficial de la lista.
+
+len(): Retorna la longitud (número de elementos) de la lista, los cuenta, sea palabras, caracteres, unidades en listas, sets, duplas o diccionarios, cuenta la longitud de cuantos hay 
+
+min(): Retorna el elemento mínimo de la lista.
+
+max(): Retorna el elemento máximo de la lista.
+
+sum(): Retorna la suma de todos los elementos de la lista.
+
+any(): Retorna True si algún elemento de la lista es verdadero, False de lo contrario.
+
+all(): Retorna True si todos los elementos de la lista son verdaderos, False de lo contrario.
+
+sorted(): Retorna una nueva lista ordenada a partir de los elementos de la lista original.
+
+index(): Retorna el índice del primer elemento que sea igual al valor especificado.
+
+count(): Retorna el número de veces que aparece un elemento en la lista.
     
 
 """
@@ -164,3 +183,29 @@ print("Después de reverse:", lista)
 # Limpiar la lista
 lista.clear()
 print("Después de clear:", lista)
+
+
+import statistics
+
+numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+# Encontrar la mediana de la lista
+median_number = statistics.median(numbers_list)
+
+print("La mediana es:", median_number)
+
+"""Si quieres implementar la búsqueda de la mediana sin usar la biblioteca statistics, puedes hacerlo manualmente ordenando la lista y luego encontrando el valor medio:"""
+
+numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+# Ordenar la lista
+sorted_list = sorted(numbers_list)
+
+# Encontrar la mediana
+n = len(sorted_list)
+if n % 2 == 1:
+    median_number = sorted_list[n // 2]
+else:
+    median_number = (sorted_list[n // 2 - 1] + sorted_list[n // 2]) / 2
+
+print("La mediana es:", median_number)
